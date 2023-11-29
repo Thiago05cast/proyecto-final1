@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(../img/oktubre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.subtitulo {
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+
+@media (max-width:800px) {
+    header {
+        background-position:center ;
+    }
+}
+
+/* navbar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    position: sticky;
+    top: 0;
+    border-style: inset outset;
+    border-width: 7px;
+    border-color:black ;
+    }
+
+    .navbar a {
+        color: black;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: white;
+    }
+
+    @media (max-width: 800px) {
+        .navbar {
+            flex-direction:column ;
+            position: unset;
+        }
+        
+        .navbar a {
+        text-align: center;}
+    }
+
+    /*estilo parte principal*/
+
+    .principal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    aside {
+        flex-basis: 25%;
+        padding: 10px;
+        background-color: red;
+        text-align: center;
+
+        }
+    
+
+    main {
+        flex-basis: 75%;
+        padding: 10px;
+        background-color: black;
+        text-align: center;
+        }
+   
+        @media (max-width: 800px) {
+            .principal{
+                flex-direction: column;
+            }
+            
+        }
+.imagenaside img{
+    width: 100% ;
+    height: auto;
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+}
+    
+.imagenaside img:hover {
+    transform: scale(1.05);
+}
+
+main h2{
+      color: white;
+ font-size: 30px;
+}
+
+main img {
+    width: 30%;
+    transition: 0.5s all ease-in-out;
+    border-style: groove;
+}
+
+main p{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.Discografia {
+    font-size: 50px;
+    text-align: start;
+}
+
+main h3{
+    color: white;
+    font-size: 40px;
+}
+
+main .vermas:hover{
+    background-color: white;
+}
+
+
+
+.imagenmain img:hover {
+    transform: scale(1.05);
+}
+
+.vermas {
+    font-size: 30px;
+}
+
+/*gulp pagina*/
+
+.gulph1{
+    color: greenyellow;
+    background-color: gray;
+    text-align: center;
+    font-size: 50px;
+    border: 0;
+    padding: 0;
+}
+
+footer{
+    text-align: start;
+}

@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Abril Fatface', serif;
+    border-style: inset;
+    color: red;
+    background-image: url(../img/oktubre.jpg);
+}
+
+main{
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width:800px) {
+    header {
+        background-position:center ;
+    }
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    background-color: red;
+}

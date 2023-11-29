@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+header {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Abril Fatface', serif;
+    border-style: inset;
+    background-image: linear-gradient(rgba(119,88,152,255),rgba(229,137,61,255));
+    
+}
+body{
+    background-color: rgba(229,137,61,255);
+}
+
+img{
+    border-style: inset;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Vina Sans', sans-serif;;
+}
+
+h2{
+    color: black;
+    font-size: 50px;
+}
+
+ul{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    
+}
+
+@media (max-width:800px) {
+    img{
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media (max-width:800px) {
+    iframe{
+        width: 60%;
+        height: auto;
+    }
+}
